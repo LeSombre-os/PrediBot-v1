@@ -1,0 +1,71 @@
+{
+  "initialCapital": 1000.00,
+  "cash": 402.04,
+  "lastUpdated": "2026-06-22T11:07:00Z",
+  "runNumber": 9,
+  "positions": [],
+  "tradeHistory": [
+    {
+      "id": "megaeth-airdrop-1",
+      "slug": "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254",
+      "question": "Will MegaETH perform an airdrop by June 30?",
+      "side": "YES",
+      "entryPrice": 0.1385,
+      "exitPrice": 0.026,
+      "shares": 1444,
+      "cost": 200.00,
+      "proceeds": 37.54,
+      "pnl": -162.46,
+      "pnlPercent": -81.23,
+      "entryDate": "2026-06-14",
+      "exitDate": "2026-06-17",
+      "exitReason": "STOP LOSS - Price crashed 81% below entry. Stop loss triggered at 40% ($0.0831). Market repriced airdrop probability to 2.6% after team confirmed Terminal rewards in USDm instead of token airdrop.",
+      "holdDays": 3
+    },
+    {
+      "id": "czechia-wc-1",
+      "slug": "will-czechia-win-on-2026-06-18",
+      "question": "Will Czechia win on 2026-06-18?",
+      "side": "YES",
+      "entryPrice": 0.525,
+      "exitPrice": 0.00,
+      "shares": 319,
+      "cost": 167.48,
+      "proceeds": 0.00,
+      "pnl": -167.48,
+      "pnlPercent": -100.00,
+      "entryDate": "2026-06-18",
+      "exitDate": "2026-06-19",
+      "exitReason": "RESOLVED NO - Czechia drew 1-1 with South Africa. Match ended in draw, YES position worthless.",
+      "holdDays": 1
+    },
+    {
+      "id": "colombia-cepeda-1",
+      "slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
+      "question": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
+      "side": "YES",
+      "entryPrice": 0.095,
+      "exitPrice": 0.00,
+      "shares": 2821,
+      "cost": 268.00,
+      "proceeds": 0.00,
+      "pnl": -268.00,
+      "pnlPercent": -100.00,
+      "entryDate": "2026-06-19",
+      "exitDate": "2026-06-22",
+      "exitReason": "RESOLVED NO - Abelardo de la Espriella won the Colombian presidential runoff with 49.66% vs Cepeda's 48.70%. Preliminary count confirmed by all credible sources. No recount has ever flipped a Colombian presidential election. Thesis invalidated.",
+      "holdDays": 3
+    }
+  ],
+  "stats": {
+    "totalTrades": 3,
+    "wins": 0,
+    "losses": 3,
+    "totalPnl": -597.96,
+    "totalFees": 0.00,
+    "consecutiveLosses": 3,
+    "bestTrade": 0.00,
+    "worstTrade": -268.00,
+    "unrealizedPnl": 0.00
+  }
+}

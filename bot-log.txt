@@ -1,0 +1,170 @@
+BOT LOG — PrédiBot Polymarket
+==============================
+Démarrage: 14 juin 2026
+Capital initial: $1,000.00
+Objectif: Maximiser le capital en 7 jours (→ 21 juin 2026)
+
+---
+[2026-06-14T13:27Z] RUN 1
+  FETCH: gamma-api.polymarket.com → 30+ marchés actifs, 5 matchs du jour
+  ANALYSE: 
+    - MegaETH airdrop YES @ 0.1385 → my est. 25% → edge 11.15% ✅
+    - Paix US-Iran NO @ 0.8835 → my est. 98% → edge 9.65% ❌ (juste sous 10%)
+    - Allemagne gagne @ 0.9425 → edge <4% ❌
+    - Vegas NHL YES @ 0.2095 → edge 7.05% ❌ (Vegas a perdu — bon PASS !)
+    - Colombie Abelardo YES @ 0.855 → edge 4.5% ❌
+  TRADE: ENTRY MegaETH YES @ 0.1385 | 1,444 shares | $200.00 | Edge 11.15%
+  PORTFOLIO: $800.00 cash + $200.00 position = $1,000.00
+  NOTE: Premier run conservateur. Un seul trade avec edge > 10%.
+  ---
+[2026-06-15T05:37Z] RUN 2
+  FETCH: gamma-api → top events, 30+ marchés actifs, primaires 16 juin
+  HOLD:  MegaETH YES @ 0.1385 → 0.1885 | 1,444 shares | $272.19 (+$72.19, +36.1%)
+  ANALYSE: 25+ marchés analysés
+    - Carolina ✅ Stanley Cup (Vegas perdu — confirmé bon PASS)
+    - Colombie Abelardo @ 0.885 → edge 3.5% ❌
+    - OK primaires: Mazzei @ 0.819, Munson @ 0.976 → priced
+    - VA-02: Luria @ 0.975 → edge négligeable
+    - WC 2026: edges < 6% + résolution hors fenêtre
+  TRADE: Aucun nouveau trade — edge > 10% introuvable
+  PORTFOLIO: $800.00 cash + $272.19 position = $1,072.19 (+7.22%)
+  NOTE: MegaETH explose ! Attendre résolutions primaires demain.
+  ---
+[2026-06-16T07:34Z] RUN 3
+  FETCH: gamma-api → 50+ marchés, primaires en cours (VA, OK), Fed demain
+  HOLD:  MegaETH YES @ 0.1385 → 0.138 | 1,444 shares | $199.27 (-$0.73)
+         → Correction de -26.8% après rallye. Thèse intacte, edge 11.2%.
+  ANALYSE: 30+ marchés analysés
+    - VA-02: Luria @ 0.983 — priced
+    - VA Sénat: Mizusawa @ 0.795 — edge 0.5% ❌
+    - OK Gov: Munson @ 0.9825, Mazzei @ 0.812 — priced
+    - Fed: No change @ 0.9945 — 99% certain
+    - Colombie: Abelardo @ 0.895 — edge 3.5% ❌
+  TRADE: Aucun nouveau trade — edge > 10% introuvable
+  PORTFOLIO: $800.00 cash + $199.27 position = $999.27 (-0.07%)
+  NOTE: MegaETH corrige violemment. Primaires se résolvent aujourd'hui.
+        Fed demain. Rester patient — le edge est meilleur qu'à l'entrée.
+  ---
+[2026-06-17T06:18Z] RUN 4
+  FETCH: gamma-api → 30+ marchés, WC J1 (Portugal, England, Ghana), Fed today, Colombie J-4
+  EXIT:  MegaETH YES @ 0.1385 → 0.026 | 1,444 shares | $37.54 (-$162.46, -81.23%)
+         → STOP LOSS TRIGGERED! Crash de -81% en 24h. Team a confirmé Terminal rewards USDm au lieu d'airdrop token MEGA. Thèse invalidée.
+  ANALYSE: 40+ marchés analysés
+    - Colombie Abelardo @ 0.865 → my est. 94-96% → edge 8-10% ❌ (juste sous seuil)
+    - Portugal WC @ 0.755 → my est. 80-82% → edge 4.5-6.5% ❌
+    - England WC @ 0.565 → my est. 60-63% → edge 3.5-6.5% ❌
+    - Ghana WC @ 0.46 → my est. 48-50% → edge 2-4% ❌
+    - Fed No change @ 0.9965 → priced ❌
+    - BoE No change @ 0.993 → priced ❌
+  TRADE: EXIT MegaETH. Aucun nouveau trade — edge max 8-10% sur Colombie, sous les 10% requis.
+  PORTFOLIO: $837.54 cash + $0.00 positions = $837.54 (-16.25%)
+  NOTE: GROSSE LEÇON — ai mal interprété les règles du marché MegaETH. Le Genesis Airdrop (NFT) ne comptait pas, et les Terminal rewards sont en USDm. La thèse était erronée. Maintenant 100% cash, J-4 avant la fin. Besoin de trades à fort edge.
+  ---
+[2026-06-18T08:54Z] RUN 5
+  FETCH: gamma-api → 30+ marchés actifs, WC J2 (Czechia/South Africa, Switzerland/Bosnia, Canada/Qatar), BoE today, Colombie J-3
+  ANALYSE: 35+ marchés analysés
+    - Czechia YES @ 0.525 → my est. 64% → edge +11.5% ✅ (South Africa suspendue: Sithole + Zwane out)
+    - Switzerland YES @ 0.625 → my est. 66% → edge +3.5% ❌
+    - Canada YES @ 0.765 → my est. 78% → edge +1.5% ❌
+    - Colombie Abelardo @ 0.885 → my est. 93% → edge +4.5% ❌ (prix monté depuis Run 4)
+    - BoE No change @ 0.998 → priced ❌
+    - Banque Russie Decrease @ 0.9685 → priced ❌
+    - WC Winners → résolution hors fenêtre ❌
+  TRADE: ENTRY Czechia YES @ 0.525 | 319 shares | $167.48 | Edge 11.5% | Stop loss $0.315
+  PORTFOLIO: $670.06 cash + $167.48 position = $837.54 (-16.25%)
+   NOTE: Premier trade depuis le désastre MegaETH. Thèse solide: South Africa privée de 2 titulaires suspendus (Sithole + Zwane). Czechia en mode must-win après défaite J1. Résolution aujourd'hui. J-3 avant la fin, besoin de ce win pour relancer le portefeuille.
+   ---
+[2026-06-19T14:54Z] RUN 6
+   FETCH: gamma-api → marchés actifs, matches WC 19 juin (USA/Australia, Scotland/Morocco, Turkiye/Paraguay), Colombie J-2
+   RESOLVE: Czechia YES @ 0.525 → 0.00 | 319 shares | $0.00 (-$167.48, -100%)
+            → RESOLVED NO — match nul 1-1. Czechia menait 1-0 (Sadilek 6'), Mokoena penalty 83'.
+            → Thèse des suspensions valide MAIS sous-estimation de la résilience de SA. Erreur d'exécution.
+   ANALYSE: 30+ marchés analysés, focus Colombie élection présidentielle
+     - Cepeda YES @ 0.095 → my est. 44% → edge +34.5% ✅ COLOSSAL
+     - Abelardo YES @ 0.905 → my est. 52% → edge -38.5% ❌ (massivement surévalué)
+     - USA YES @ 0.605 → my est. 55-57% → edge négatif (Pulisic absent) ❌
+     - Morocco YES @ 0.585 → my est. 60-62% → edge +1.5-3.5% ❌
+     - Scotland YES @ 0.155 → my est. 18-20% → edge +2.5-4.5% ❌
+     - Turkiye YES @ 0.47 → my est. 45-50% → edge incertain ❌
+   TRADE: ENTRY Cepeda YES @ 0.095 | 2,821 shares | $268.00 | Edge +34.5% | Stop loss $0.057
+    PORTFOLIO: $402.04 cash + $268.00 position = $670.06 (-32.99%)
+    NOTE: LE TRADE DE LA SEMAINE. Polymarket price Cepeda à 9.5¢ (!!!) alors que les sondages le donnent à 43-44% dans le runoff colombien. La disparité est énorme (~35 points). Les électeurs des petits candidats (15.4% au 1er tour) se répartiront dans le runoff — Cepeda devrait hériter d'une part significative. Même avec un biais conservateur, l'edge dépasse 28%. Payoff asymétrique: 9.5x si Cepeda gagne. Résolution J+2 (21 juin = dernier jour). J-2 avant la fin, besoin de ce home run. Si perte → 3e défaite consécutive → sizing réduit de 50% pour Run 7.
+    ---
+[2026-06-20T08:35Z] RUN 7
+   FETCH: gamma-api → 30+ marchés actifs, WC J3 (Netherlands/Sweden, Germany/CIV, Ecuador/Curacao), Colombie J-1 (élection demain!)
+   HOLD:  Cepeda YES @ 0.095 → 0.115 | 2,821 shares | $324.42 marché (+$56.42, +21.0%)
+          → Prix a monté de 2¢ depuis l'entrée. Le marché commence à corriger le mispricing.
+          → Stop loss $0.057: NON DÉCLENCHÉ (0.115 >> 0.057)
+   ANALYSE: 30+ marchés analysés, focus matchs du jour et Colombie
+     - Cepeda YES @ 0.115 → my est. 44% → edge +32.5% ✅ ENCORE MASSIF
+     - Atlas Intel (13 juin): Cepeda 44.5%, Abelardo 52.2% → gap 7.7% qui se rétrécit
+     - Netherlands YES @ 0.575 → my est. 55-60% → edge <5% ❌
+     - Germany YES @ 0.645 → my est. 68-72% → edge 3.5-7.5% ❌
+     - Ecuador YES @ 0.865 → my est. 90-92% → edge <5% ❌
+   TRADE: Aucun nouveau trade — edges insuffisants sur tous les marchés du jour
+   PORTFOLIO (book): $402.04 cash + $268.00 position = $670.06 (-32.99%)
+   PORTFOLIO (market): $402.04 cash + $324.42 position = $726.46 (-27.35%)
+   NOTE: DERNIER RUN AVANT LE JOUR J. Tout repose sur Cepeda demain. Si YES → portefeuille à $2,955 (+195.5%). Si NO → $402 (-59.8%). Le risque est justifié par l'asymétrie et l'edge massif. Aucun regret sur les trades précédents — les décisions étaient rationnelles selon les données disponibles. La semaine se résume à une leçon : les marchés de prédiction peuvent être massivement inefficaces sur les événements politiques, et c'est là que se trouvent les plus gros edges.
+   ---
+[2026-06-21T14:15Z] RUN 8 — FINAL
+   FETCH: gamma-api → 30+ marchés actifs, Colombie JOUR J (élection second tour aujourd'hui!)
+   HOLD:  Cepeda YES @ 0.095 → 0.125 | 2,821 shares | $352.63 marché (+$84.63, +31.6%)
+          → Prix a monté de 3¢ depuis l'entrée (0.095 → 0.125). Le marché corrige le mispricing.
+          → Volume 24h: $622,822 (massif — liquidité x100 depuis l'entrée)
+          → Last trade: 0.13, Bid: 0.12, Ask: 0.13
+          → Polymarket API: active=true, closed=false, acceptingOrders=true
+          → Résolution imminente (aujourd'hui après fermeture des polls 16h COT / 21h UTC)
+          → Stop loss $0.057: NON DÉCLENCHÉ (0.125 >> 0.057)
+   ANALYSE: Données fraîches API Gamma Polymarket
+     - Cepeda YES @ 0.125 → élection EN COURS (polls 8h-16h COT)
+     - Abelardo YES @ 0.885 (favori massif du marché à 88.5%)
+     - Spain vs Saudi Arabia @ 0.895 → Spain given at 89.5% (résolution 16h UTC)
+     - Belgium vs IR Iran @ 0.685 → Belgium given at 68.5%
+     - Uruguay vs Cabo Verde @ 0.675 → Uruguay given at 67.5%
+     - Spain, Belgium, Uruguay: edges < 10% sur tous, marchés efficients
+   RÉVISION ESTIMATION CEPEDA: 
+     - Mon estimation initiale (44%) était trop optimiste. En rétrospective:
+     - La consolidation de la droite derrière De la Espriella (Paloma Valencia + Uribe) était sous-estimée
+     - L'effet Trump + vague right-wing latino-américaine était sous-estimé
+     - L'impopularité de Petro et l'échec du "Total Peace" pesaient lourd
+     - Ajustement à 28% (contre 44% initial). Edge actuel: +15.5% ✅ (toujours significatif)
+     - Le marché à 12.5% reste trop bas même après correction — le vote Petro/Cepeda hardcore est ~35-40% du pays
+   TRADE: HOLD — Résolution aujourd'hui. Vendre avant résolution n'a pas de sens.
+          → Pas de nouveau trade (edges < 10% sur les matchs du jour)
+          → Cash $402.04 conservé
+   PORTFOLIO (book): $402.04 cash + $268.00 position = $670.06 (-32.99%)
+   PORTFOLIO (market): $402.04 cash + $352.63 position = $754.67 (-24.53%)
+   NOTE: RUN FINAL. L'expérience de 7 jours se conclut aujourd'hui. Le sort du portefeuille repose sur le résultat de l'élection colombienne. Deux scenarii:
+         ✅ Cepeda gagne → 2,821 × $1.00 = $2,821 → portefeuille $3,223.04 (+222.3%) 
+         ❌ Cepeda perd → position à $0 → portefeuille $402.04 (-59.8%)
+         Quelle que soit l'issue, les leçons de cette expérience sont inestimables.
+   ---
+[RÉSOLUTION EN ATTENTE — ÉLECTION COLOMBIENNE EN COURS]
+    Note: Les polls ferment à 16h heure colombienne (21h UTC). Les résultats préliminaires sont attendus 1-2h après. La résolution Polymarket pourrait prendre 24-48h après la fermeture des bureaux de vote. Le rapport final sera complété dès la résolution connue.
+    ---
+[2026-06-22T11:07Z] RUN 9 — FINAL (RÉSOLUTION)
+    FETCH: gamma-api.polymarket.com → marchés actifs, Colombie résolution
+    RESOLVE: Cepeda YES @ 0.095 → 0.00 | 2,821 shares | $0.00 (-$268.00, -100%)
+             → RÉSOLUTION NO — Abelardo de la Espriella a gagné l'élection présidentielle colombienne
+             → Résultats préliminaires (99.99% dépouillés): De la Espriella 49.66%, Cepeda 48.70%
+             → Écart: ~250,830 voix (moins de 1 point)
+             → Cepeda conteste 33,000 bureaux mais aucun recomptage n'a jamais inversé une présidentielle colombienne
+             → Polymarket price YES: 0.008 (0.8%) — le marché anticipe la résolution NO
+    ANALYSE POST-MORTEM:
+      - Thèse correcte: gap anormal entre sondages (~44% pour Cepeda) et prix Polymarket (9.5%)
+      - Cepeda a réellement obtenu 48.7% — bien plus que mon estimation révisée de 28%
+      - MAIS: "presque gagner" = "perdre" dans un marché binaire
+      - L'asymétrie était réelle (9.5x) mais la probabilité était difficile à estimer
+      - Leçons: les marchés politiques non-US ont des inefficacités MAIS le biais Polymarket (right-wing) était correct cette fois
+    STATISTIQUES FINALES:
+      Capital initial: $1,000.00
+      Capital final:   $402.04
+      ROI:             -59.80%
+      Trades: 3 | Wins: 0 | Losses: 3 | Win rate: 0%
+      P&L total: -$597.96
+    NOTE: EXPÉRIENCE TERMINÉE. 7 jours. 8 runs + 1 résolution. 3 trades, 0 gagnants.
+          Le bot a correctement identifié un mispricing massif sur la Colombie, mais le trading binaire
+          est impitoyable: 48.7% des voix ≠ 48.7% de chance de gagner le marché. La thèse était
+          partiellement correcte mais l'exécution et l'estimation étaient imparfaites.
+          Rendez-vous pour PrédiBot v2.0 — avec une vraie pipeline quantitative cette fois.
+    ---
